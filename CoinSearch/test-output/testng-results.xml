@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T09:53:39 CST" name="Default suite" finished-at="2024-01-31T09:57:34 CST" duration-ms="235475">
+    <groups>
+    </groups>
+    <test started-at="2024-01-31T09:53:39 CST" name="Default test" finished-at="2024-01-31T09:57:34 CST" duration-ms="235475">
+      <class name="testNGtests.OutCoins4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGtests.OutCoins4@3012646b]" started-at="2024-01-31T09:53:39 CST" name="setUp" finished-at="2024-01-31T09:53:47 CST" duration-ms="8511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="captureCoin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGtests.OutCoins4@3012646b]" started-at="2024-01-31T09:53:47 CST" name="captureCoin" data-provider="testdata" finished-at="2024-01-31T09:57:34 CST" duration-ms="226716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Costa Rica]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureCoin -->
+      </class> <!-- testNGtests.OutCoins4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
